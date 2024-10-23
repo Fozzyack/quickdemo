@@ -8,9 +8,9 @@ const Welcome = () => {
 			initial={{ y: -100 }}
 			animate={{ y: 0 }}
             whileHover={{ y: -10 }}
-			className="p-1 bg-pink-400 bg-gradient-to-tr from-red-500 to-blue-500 rounded-xl hover:shadow-xl transition-all ease-in-out duration-150"
+			className="p-1 bg-transparent hover:bg-blue-500 rounded-xl hover:shadow-xl transition-all ease-in-out duration-150"
 		>
-                <div className="text-white iflex p-4 bg-black rounded-xl">Welcome</div>
+                <div className="text-white flex p-4 bg-black rounded-xl">Welcome</div>
 		</motion.div>
         </a>
 	);

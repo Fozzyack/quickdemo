@@ -4,7 +4,7 @@ import Welcome from "./components/Welcome";
 
 function App() {
 	return (
-		<div className="flex flex-col justify-center items-center h-screen">
+		<div className="bg-sky-300 flex flex-col justify-center items-center h-screen">
 			<Welcome />
             <Links />
 		</div>
