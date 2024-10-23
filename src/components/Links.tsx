@@ -2,6 +2,9 @@ import React from "react";
 import SKG from "../assets/skg.png";
 import PRC from "../assets/PRC.png";
 import WR from "../assets/WR.jpg";
+import ENVISION from "../assets/Envision.jpg";
+import IMED from "../assets/IMED.png";
+import PRECISION from "../assets/Precision.jpg"
 import { motion } from "framer-motion";
 
 const LINKS = [
@@ -19,6 +22,21 @@ const LINKS = [
 		name: "Western Radiology",
 		link: "https://pacs.westernradiology.com.au/Portal/app#/",
 		image: WR,
+	},
+	{
+		name: "I-MED Radiology",
+		link: "https://portal.i-medonline.com.au/",
+		image: IMED 
+	},
+	{
+		name: "Envision",
+		link: "https://patient.envisionmi.com.au/sign-in?ReturnUrl=%2f",
+		image: ENVISION,
+	},
+	{
+		name: "Precision Radiology",
+		link: "https://precisionradiologywa.com.au/",
+		image: PRECISION, 
 	},
 	{
 		name: "Another Site",
