@@ -68,7 +68,7 @@ const Links = () => {
 						<motion.div 
                         
                         whileHover={{ y:-10 }}
-                        className="p-4 bg-white flex flex-col hover:shadow-xl hover:bg-blue-500 duration-150 transition-all ease-in-out items-center justify-center rounded-xl hover:border-white h-full group">
+                        className="p-4 bg-white flex flex-col hover:shadow-xl hover:bg-gradient-to-tr hover:from-sky-300 hover:to-lime-100 duration-150 transition-all ease-in-out items-center justify-center rounded-xl hover:border-white h-full group">
 							<img
 
 								src={link.image}
