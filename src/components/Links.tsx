@@ -5,6 +5,9 @@ import WR from "../assets/WR.jpg";
 import ENVISION from "../assets/Envision.jpg";
 import IMED from "../assets/IMED.png";
 import PRECISION from "../assets/Precision.jpg"
+import GCR from "../assets/GCR.jpg"
+import CAPITAL from "../assets/Capital.jpg"
+import MQH from "../assets/MQH.jpg"
 import { motion } from "framer-motion";
 
 const LINKS = [
@@ -39,19 +42,19 @@ const LINKS = [
 		image: PRECISION, 
 	},
 	{
-		name: "Another Site",
-		link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-		image: "",
+		name: "GoldCoast Radiology",
+		link: "https://iconnect.gcradiology.com.au/login/",
+		image: GCR, 
 	},
 	{
-		name: "Another Site",
-		link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-		image: "",
+		name: "Captial Radiology",
+		link: "https://connect.capitalradiology.com.au/Portal/app#/#",
+		image: CAPITAL, 
 	},
 	{
-		name: "Another Site",
-		link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-		image: "",
+		name: "MQ Health",
+		link: "https://aumuh.patientportal.intelerad.com/login",
+		image: MQH 
 	},
 ];
 
@@ -62,7 +65,7 @@ const Links = () => {
 				<motion.div
 					initial={{ y: -2000 }}
 					animate={{ y: 0 }}
-					transition={{ delay: (index + 1) * 0.2 }}
+					transition={{ delay: (index + 1) * 0.2, type: "spring", stiffness: 20 }}
 				>
 					<a href={link.link} >
 						<motion.div 
