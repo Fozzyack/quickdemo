@@ -8,6 +8,7 @@ import PRECISION from "../assets/Precision.jpg"
 import GCR from "../assets/GCR.jpg"
 import CAPITAL from "../assets/Capital.jpg"
 import MQH from "../assets/MQH.jpg"
+import QSCAN from "../assets/QSCAN.png"
 import { motion } from "framer-motion";
 
 const LINKS = [
@@ -56,11 +57,16 @@ const LINKS = [
 		link: "https://aumuh.patientportal.intelerad.com/login",
 		image: MQH 
 	},
+	{
+		name: "Q Scan",
+		link: "https://patient.qscan.com.au/sign-in?ReturnUrl=%2f",
+		image: QSCAN
+	},
 ];
 
 const Links = () => {
 	return (
-		<div className="grid grid-cols-2 md:grid-cols-3 mt-8 gap-7 p-4 rounded-xl">
+		<div className="grid grid-cols-2 md:grid-cols-3 mt-8 gap-7 p-4 rounded-xl justify-center">
 			{LINKS.map((link, index) => (
 				<motion.div
 					initial={{ y: -2000 }}
@@ -71,7 +77,7 @@ const Links = () => {
 						<motion.div 
                         
                         whileHover={{ y:-10 }}
-                        className="p-4 bg-white flex flex-col hover:shadow-xl hover:bg-gradient-to-tr hover:from-sky-300 hover:to-lime-100 duration-150 transition-all ease-in-out items-center justify-center rounded-xl hover:border-white h-full group">
+                        className="p-4 bg-white justify-self-center flex flex-col hover:shadow-xl hover:bg-gradient-to-tr hover:from-sky-300 hover:to-lime-100 duration-150 transition-all ease-in-out items-center justify-center rounded-xl hover:border-white h-full group">
 							<img
 
 								src={link.image}
