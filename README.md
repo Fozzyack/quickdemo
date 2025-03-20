@@ -13,3 +13,9 @@ A small, very simple site that is currently being used by IT professionals in Sa
 - Typescript
 - HTML
 - Framer Motion
+
+## Note
+
+This was only supposed to be a demo site (MVP)
+- Can be found [here](https://quickradiodemo.netlify.app/)
+
